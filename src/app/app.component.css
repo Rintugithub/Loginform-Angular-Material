@@ -1,0 +1,18 @@
+.tabClass{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 5rem;
+}
+.loginCard{
+  /* background-color: aquamarine; */
+  border: 1px solid skyblue;
+  border-radius: .8rem;
+  width: 350px !important;
+}
+mat-form-field{
+  width: 100%;
+}
+
