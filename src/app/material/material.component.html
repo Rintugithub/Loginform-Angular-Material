@@ -1,0 +1,23 @@
+<div style="text-align: center;">
+  <p>material works!</p>
+<mat-form-field>
+  <mat-label>topic</mat-label>
+
+  <mat-select [(value)]="selectedvalue" multiple>
+    <mat-option>none</mat-option>
+    <mat-optgroup label="web">
+    <mat-option value="angular">angular</mat-option>
+    <mat-option value="react">react</mat-option>
+    <mat-option value="view">view</mat-option>
+  </mat-optgroup>
+  <mat-optgroup label="mobile">
+    <mat-option value="phone">angular</mat-option>
+    <mat-option value="flutter">react</mat-option>
+    <mat-option value="iconic">view</mat-option>
+  </mat-optgroup>
+
+
+  </mat-select>
+</mat-form-field>
+<h1>{{selectedvalue}}</h1>
+</div>
